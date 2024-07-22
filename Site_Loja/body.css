@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 90px;
+}
+
+nav.navbar {
+    background-color: #96cbff;
+    border-bottom: 1px solid #dee2e6;
+}
+
+span#cart-badge {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+    font-size: 0.8em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.product-card a {
+    color: white
+}
+
+.product-card a:hover {
+    text-decoration: none;
+}
+
+.product-card h5 {
+    margin-top: 0;
+}
+
+.product-card img {
+    height: 300px;
+    align-self: center;
+    padding-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    border: none;
+    padding: 8px 12px 8px 12px;
+    margin: 5px 0 5px 0;
+    cursor: pointer;
+    width: 100%;
+    color: white;
+}
+
+.add-to-cart-btn:hover {
+    text-decoration: none;
+}
+
+.custom-search {
+    max-width: 300px;
+    margin: 0 auto;
+    position: center;
+}
+
+title {
+    color: white;
+}
+
+.navbar {
+    background-color: #96cbff;
+}
+
+.navbar-brand {
+    color: #ddd;
+}
+
+.navbar-nav .nav-link {
+    color: #000000 !important;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 170px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.submenu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.custom-search {
+    max-width: 300px;
+    margin: 0 auto;
+    position: center;
+}
+
+.filter-container {
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rodape-direitos {
+    display: flex;
+    width: 100%;
+    background-color: #96cbff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+}
