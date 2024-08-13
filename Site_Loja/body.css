@@ -1,4 +1,8 @@
-
+#lista-produtos {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
 
 body {
     font-family: Arial, sans-serif;

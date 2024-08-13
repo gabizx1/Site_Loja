@@ -1,0 +1,67 @@
+{
+    "livros": [
+        {
+            "id": 1,
+            "name": "A HIPÓTESE DO AMOR",
+            "description": "Um namoro de mentira entre cientistas encontra a irresistível força da atração e teorias calculadas sobre o amor são postas à prova.",
+            "price": 49.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/81LTEfXYgcL._SY385_.jpg"
+        },
+        {
+            "id": 2,
+            "name": "PRÍNCIPE CRUEL",
+            "description": "O príncipe cruel é o primeiro livro da envolvente série O Povo do Ar sobre uma garota mortal que se vê presa em uma teia de intrigas de fadas reais.",
+            "price": 50.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/81FH6q0EqYS._SY385_.jpg"
+        },
+        {
+            "id": 3,
+            "name": "O EXTRAORDINÁRIO",
+            "description": "August, com síndrome genética e deformidade facial, superou cirurgias e complicações médicas, estreando finalmente em uma escola.",
+            "price": 29.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/6132ndvQdiL._SY385_.jpg"
+        },
+        {
+            "id": 4,
+            "name": "O ILUMINADO",
+            "description": "Na guerra sem testemunhas, Danny Torrance, o 'iluminado', com poderes extraordinários como ouvir pensamentos e viajar no tempo, desvendando caminhos inexplorados entre forças obscuras e sua luz interior.",
+            "price": 60.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/8147kKLLvOL._SY385_.jpg"
+        },
+        {
+            "id": 5,
+            "name": "1618",
+            "description": "'1618', o novo livro de Cesar Bravo, mergulha no terror enraizado na sociedade e na tecnologia. Com sensibilidade, Bravo captura nossos medos e silêncios, oferecendo uma narrativa envolvente e reflexiva para o leitor.",
+            "price": 63.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/61-QFXeIMhL._SY385_.jpg"
+        },
+        {
+            "id": 6,
+            "name": "PSICOSE",
+            "description": "'Psicose', de Bloch, antecipou o surgimento dos serial killers dos anos 1980 e 1990, com narrativa psicológica precursora. Sua obra continua influente, explorando as complexidades da mente humana no suspense contemporâneo.",
+            "price": 59.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/51c22s4RUnL._SY385_.jpg"
+        },
+        {
+            "id": 7,
+            "name": "MEMÓRIAS PÓSTUMAS DE BRÁS CUBAS",
+            "description": "Em um romance marcado por digressões filosóficas, o defunto autor Brás Cubas revela as contradições da sociedade brasileira do século XIX e analisa seus personagens.",
+            "price": 25.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/61Us+SweQDL._SY385_.jpg"
+        },
+        {
+            "id": 8,
+            "name": "SENHORA",
+            "description": "'Senhora' revela as convenções da sociedade burguesa carioca do século XIX. Pelos desencontros amorosos de Aurélia, Fernanda e Adelaide, o autor traça um painel da vida da corte e critica os costumes da época.",
+            "price": 30.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/711tJRe6LML._AC_UL480_FMwebp_QL65_.jpg"
+        },
+        {
+            "id": 9,
+            "name": "HAMLET",
+            "description": "Hamlet é compelido a executar uma drástica vingança contra seu tio, desvendando os intricados fios do destino que o levam a uma jornada de revanche pela morte de seu pai.",
+            "price": 39.00,
+            "imageUrl": "https://m.media-amazon.com/images/I/71yTTLMgq8L._SY385_.jpg"
+        }
+    ]
+}

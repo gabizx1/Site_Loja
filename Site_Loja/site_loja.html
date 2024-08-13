@@ -16,6 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/class Componente.js"></script>
     <script src="js/class Produto.js"></script>
+    <script src="js/dbScript.js"></script>
 </head>
 
 <body id=inicio>
@@ -45,129 +46,7 @@
             </div>
 
             <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/81LTEfXYgcL._SY385_.jpg">
-                            <h5 slot="bookname">A HIPÓTESE DO AMOR</h5>
-                            <p slot="bookdesc"> Um namoro de mentira entre cientistas encontra a irresistível força da
-                                atração e teorias calculadas sobre o amor são postas à prova. </p>
-                            <a slot="booklink" href="produto_hip.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(1,'HIPÓTESE DO AMOR',49.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/81FH6q0EqYS._SY385_.jpg">
-                            <h5 slot="bookname">PRINCIPE CRUEL</h5>
-                            <p slot="bookdesc"> O prínicipe cruel é o primeiro livro da envolvente série O Povo do Ar
-                                sobre uma garota mortal que se vê presa em uma teia de intrigas de fadas reais.</p>
-                            <a slot="booklink" href="produto_princi.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(2,'PRINCIPE CRUEL',50.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/6132ndvQdiL._SY385_.jpg">
-                            <h5 slot="bookname">O EXTRAORDINÁRIO</h5>
-                            <p slot="bookdesc"> August, com síndrome genética e deformidade facial, superou cirurgias e
-                                complicações médicas, estreando finalmente em uma escola.</p>
-                            <a slot="booklink" href="produto_extraor.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(3,'O EXTRAORDINÁRIO',29.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/8147kKLLvOL._SY385_.jpg">
-                            <h5 slot="bookname">O ILUMINADO</h5>
-                            <p slot="bookdesc"> Na guerra sem testemunhas, Danny Torrance, o "iluminado", com poderes
-                                extraordinárioscomo ouvir pensamentos e viajar no tempo, desvendando caminhos inexplorados 
-                                entre forças obscuras e sua luz interior.</p>
-                            <a slot="booklink" href="produto_king.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(4,'O ILUMINADO',60.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/61-QFXeIMhL._SY385_.jpg">
-                            <h5 slot="bookname">1618</h5>
-                            <p slot="bookdesc"> "1618", o novo livro de Cesar Bravo, mergulha no terror enraizado na sociedade e na
-                                tecnologia. Com sensibilidade, Bravo captura nossos medos e silêncios, oferecendo uma
-                                narrativa envolvente e reflexiva para o leitor.</p>
-                            <a slot="booklink" href="produto_1618.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(5,'1618',63.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/51c22s4RUnL._SY385_.jpg">
-                            <h5 slot="bookname">PSICOSE</h5>
-                            <p slot="bookdesc"> Em "Psicose", Bloch antecipou o surgimento dos serial killers dos anos 1980 e 1990, com
-                                narrativa psicológica precursora. Sua obra continua influente, explorando as
-                                complexidades da mente humana no suspense contemporâneo.</p>
-                            <a slot="booklink" href="produto_psi.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(6,'PSICOSE',59.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/61Us+SweQDL._SY385_.jpg">
-                            <h5 slot="bookname">MEMÓRIAS PÓSTUMAS DE BRÁS CUBAS</h5>
-                            <p slot="bookdesc"> Em um romance marcado por digressões filosóficas, o defunto autor Brás Cubas revela, as
-                                contradições da sociedade brasileira do século XIX e analisa seus personagens.</p>
-                            <a slot="booklink" href="produto_mem.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(7,'MEMÓRIAS PÓSTUMAS DE BRÁS CUBAS',25.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/711tJRe6LML._AC_UL480_FMwebp_QL65_.jpg">
-                            <h5 slot="bookname">SENHORA</h5>
-                            <p slot="bookdesc"> Senhora revela as convenções da sociedade burguesa carioca do século XIX. Pelos
-                                desencontros amorosos de Aurélia, Fernanda  e Adelaide , o autor traça um painel
-                                da vida da corte e critica os costumes da época.</p>
-                            <a slot="booklink" href="produto_sen.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(8,'SENHORA',30.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                    <div class="col-md-4">
-                        <product-card>
-                            <img slot="bookimg" src="https://m.media-amazon.com/images/I/71yTTLMgq8L._SY385_.jpg">
-                            <h5 slot="bookname">HAMLET</h5>
-                            <p slot="bookdesc"> Hamlet é compelido a executar uma drástica vingança contra seu tio, desvendando os
-                                intricados fios do destino que o levam a uma jornada de revanche pela morte de seu pai.</p>
-                            <a slot="booklink" href="produto_1618.html" class="btn btn-primary add-to-cart-btn">Ver
-                                mais</a>
-                            <button class="btn btn-primary add-to-cart-btn" slot="bookprice"
-                                onclick="addToCart(9,'HAMLET',39.00)">Adicionar ao
-                                Carrinho</button>
-                        </product-card>
-                    </div>
-                </div>
+                <div id="lista-produtos"></div>
             </div>
         </div>
     </div>
@@ -201,7 +80,7 @@
             localStorage.setItem('cartItems', JSON.stringify(cartItems));
             updateCartBadge();
         }
-       
+
         function updateCartBadge() {
             const cartBadge = document.getElementById('cart-badge');
             if (cartBadge) {
@@ -213,4 +92,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
